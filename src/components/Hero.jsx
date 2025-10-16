@@ -15,7 +15,7 @@ const Hero = () => {
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <div className="mb-8">
-          <p className="text-cyan-400 text-lg sm:text-xl font-medium mb-2">Bonjour, je suis</p>
+          <p className="text-cyan-400 text-xl sm:text-xl font-medium mb-2">Bonjour, je suis</p>
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-4 leading-tight">
             <span className="block">Développeur</span>
             <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
         
         <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Développeur belge de 23 ans, passionné par les technologies front-end. Actuellement en formation au Cepegra pour perfectionner mes compétences en développement web moderne.
+          Belge de 23 ans, passionné par les technologies front-end. <br />Actuellement en formation au Cepegra pour perfectionner mes compétences en développement web moderne.
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 mb-8">

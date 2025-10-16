@@ -58,22 +58,22 @@ const About = () => {
 
   const experiences = [
     {
-      period: "2023 - Présent",
-      role: "Développeur Front-End Senior",
-      company: "Tech Company",
-      description: "Développement d'applications React complexes et encadrement d'équipe"
+      period: "2025 - Présent",
+      role: "Formation développeur Front-End",
+      company: "Cepegra",
+      description: "Développement d'applications complexes et encadrement d'équipe"
+    },
+    {
+      period: "2023 - 2024",
+      role: "Bachelier développeur appplication comptable",
+      company: "Hehlha, Montignies-sur-Sambre",
+      description: "Bachelier en création d'appplication comptables sur 3ans"
     },
     {
       period: "2021 - 2023",
-      role: "Développeur Full-Stack",
-      company: "Startup Innovante",
-      description: "Création d'applications web complètes avec React, Node.js et MongoDB"
-    },
-    {
-      period: "2020 - 2021",
-      role: "Développeur Junior",
-      company: "Agence Digitale",
-      description: "Intégration web et développement de sites vitrines et e-commerce"
+      role: "Ingénieur de gestion",
+      company: "Warocqué, Mons",
+      description: "Ingénieur de gestion"
     }
   ]
 
@@ -131,9 +131,8 @@ const About = () => {
                   <img 
                     src="/images/photo-profil.png" 
                     alt="Photo de profil" 
-                    className="w-24 h-24 mx-auto rounded-full object-cover border-2 border-cyan-400 shadow-md" 
+                    className="w70 h-70 mx-auto rounded-full object-cover border-2 border-cyan-400 shadow-md" 
                   />
-                  <p className="text-gray-600 font-medium mt-4">Photo de profil</p>
                 </div>
               </div>
             </div>
@@ -141,15 +140,15 @@ const About = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-6 bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl">
-                <div className="text-3xl font-bold text-cyan-600 mb-2">50+</div>
+                <div className="text-3xl font-bold text-cyan-600 mb-2">10+</div>
                 <div className="text-gray-600">Projets réalisés</div>
               </div>
               <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl">
-                <div className="text-3xl font-bold text-purple-600 mb-2">4+</div>
+                <div className="text-3xl font-bold text-purple-600 mb-2">2+</div>
                 <div className="text-gray-600">Années d'expérience</div>
               </div>
               <div className="text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl">
-                <div className="text-3xl font-bold text-green-600 mb-2">30+</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">2+</div>
                 <div className="text-gray-600">Clients satisfaits</div>
               </div>
               <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-red-50 rounded-xl">

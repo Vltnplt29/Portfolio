@@ -25,10 +25,10 @@ const Footer = () => {
                   <path d="M8 12L9 15L12 14L15 15L16 12L15 9L12 10L9 9L8 12Z"/>
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-cyan-400">VP.dev</h3>
+              <h3 className="text-2xl font-bold text-cyan-400">Portfolio de Valentin</h3>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Valentin Philippart - Développeur front-end passionné, je crée des expériences web modernes 
+              Valentin Philippart <br />Développeur front-end passionné, je crée des expériences web modernes 
               et performantes avec React et les dernières technologies.
             </p>
             <div className="flex space-x-4">
@@ -39,15 +39,6 @@ const Footer = () => {
               >
                 <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                </svg>
-              </button>
-              <button 
-                onClick={() => handleSocialLink('twitter')}
-                className="w-10 h-10 bg-black hover:bg-gray-800 rounded-full flex items-center justify-center transition-colors duration-300"
-                aria-label="X (Twitter)"
-              >
-                <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                 </svg>
               </button>
               <button 
@@ -164,7 +155,7 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <span>📧</span>
                 <button 
-                  onClick={() => window.location.href = 'mailto:dev@monportfolio.com'}
+                  onClick={() => window.location.href = 'mailto:Vltnplt@gmail.com'}
                   className="hover:text-blue-400 transition-colors duration-300"
                 >
                   vltnplt@gmail.com
@@ -186,7 +177,7 @@ const Footer = () => {
                   <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"/>
                 </svg>
                 <div>
-                  <div>Ham-sur-heure</div>
+                  <div>6120 Ham-sur-heure</div>
                   <div>Belgique</div>
                 </div>
               </div>
@@ -228,7 +219,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-gray-400 text-center md:text-left">
-              &copy; 2025 Dev Portfolio. Tous droits réservés.
+              &copy; 2025 Valentin Philippart. Tous droits réservés.
             </p>
             <div className="flex flex-wrap gap-6 text-sm">
               <button 

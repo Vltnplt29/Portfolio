@@ -49,10 +49,9 @@ export const handleServiceAction = (serviceType) => {
 // Fonction pour gérer les réseaux sociaux
 export const handleSocialLink = (platform) => {
   const socialUrls = {
-    facebook: 'https://facebook.com',
-    twitter: 'https://x.com', // Nouveau nom de Twitter
+    facebook: 'https://facebook.com/vltnplt',
     linkedin: 'https://www.linkedin.com/in/valentin-philippart/',
-    instagram: 'https://instagram.com'
+    instagram: 'https://instagram.com/vltnplt'
   };
   
   const url = socialUrls[platform];

@@ -6,17 +6,13 @@ const Services = () => {
       id: 1,
       icon: (
         <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
-          <circle cx="12" cy="12" r="2.2" fill="#61DAFB"/>
-          <path d="M12,8.11C9.96,8.11 8.11,9.96 8.11,12C8.11,14.04 9.96,15.89 12,15.89C14.04,15.89 15.89,14.04 15.89,12C15.89,9.96 14.04,8.11 12,8.11M12,17.33C9.24,17.33 6.67,15.24 6.67,12C6.67,8.76 9.24,6.67 12,6.67C14.76,6.67 17.33,8.76 17.33,12C17.33,15.24 14.76,17.33 12,17.33" fill="#61DAFB"/>
-          <ellipse cx="12" cy="12" rx="11" ry="4.2" fill="none" stroke="#61DAFB" strokeWidth="1"/>
-          <ellipse cx="12" cy="12" rx="11" ry="4.2" fill="none" stroke="#61DAFB" strokeWidth="1" transform="rotate(60 12 12)"/>
-          <ellipse cx="12" cy="12" rx="11" ry="4.2" fill="none" stroke="#61DAFB" strokeWidth="1" transform="rotate(120 12 12)"/>
+          <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" fill="#9C27B0"/>
         </svg>
       ),
-      title: "Développement React",
-      description: "Création d'applications web modernes et performantes avec React, hooks, et état global.",
-      features: ["Components réutilisables", "State management", "Hooks personnalisés", "Performance optimisée"],
-      price: "À partir de 2000€"
+      title: "Intégration UI/UX",
+      description: "Intégration de maquettes design en sites web responsives et animés.",
+      features: ["Figma to Code", "Animations CSS", "Micro-interactions"],
+      price: "À partir de 400€"
     },
     {
       id: 2,
@@ -25,10 +21,10 @@ const Services = () => {
           <path d="M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21C5,22.11 5.89,23 7,23H17C18.11,23 19,22.11 19,21V3C19,1.89 18.11,1 17,1Z" fill="#4CAF50"/>
         </svg>
       ),
-      title: "Applications Responsive",
-      description: "Sites web adaptatifs qui fonctionnent parfaitement sur tous les appareils et tailles d'écran.",
-      features: ["Design mobile-first", "Breakpoints optimisés", "Touch interactions", "Performance mobile"],
-      price: "À partir de 1500€"
+      title: "Site vitrine responsive",
+      description: "Création de sites web adaptatifs pour présenter votre activité.",
+      features: ["Mobile-first", "SEO de base", "Design personnalisé"],
+      price: "À partir de 600€"
     },
     {
       id: 3,
@@ -37,46 +33,50 @@ const Services = () => {
           <path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.22,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.22,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.68 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" fill="#FF9800"/>
         </svg>
       ),
-      title: "Optimisation Performance",
-      description: "Amélioration des performances, SEO et expérience utilisateur de vos applications existantes.",
-      features: ["Analyse performance", "Code splitting", "Lazy loading", "Core Web Vitals"],
-      price: "À partir de 1000€"
+      title: "Optimisation simple",
+      description: "Amélioration de la rapidité et du référencement de votre site existant.",
+      features: ["Analyse basique", "Optimisation images", "SEO technique"],
+      price: "À partir de 300€"
     },
     {
       id: 4,
-      icon: (
-        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" fill="#9C27B0"/>
-        </svg>
-      ),
-      title: "Intégration UI/UX",
-      description: "Transformation de maquettes design en interfaces web pixel-perfect et interactives.",
-      features: ["Figma to Code", "Animations CSS", "Micro-interactions", "Design systems"],
-      price: "À partir de 1200€"
-    },
-    {
-      id: 5,
-      icon: (
-        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M13,1L8,6H11V14H13V6H16M6,19A2,2 0 0,1 4,17V15H6V17H18V15H20V17A2,2 0 0,1 18,19" fill="#2196F3"/>
-        </svg>
-      ),
-      title: "API Integration",
-      description: "Connexion et intégration d'APIs REST et GraphQL pour des applications dynamiques.",
-      features: ["REST APIs", "GraphQL", "Authentication", "Data fetching"],
-      price: "À partir de 800€"
-    },
-    {
-      id: 6,
       icon: (
         <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
           <path d="M22.7 19L13.6 9.9C14.5 7.6 14 4.9 12.1 3C10.1 1 7.1 1 5.1 3S1 7.1 3 9.1C4.9 11 7.6 11.5 9.9 10.6L19 19.7C19.3 20 19.7 20 20 19.7L22.7 17C23 16.7 23 16.3 22.7 16L22.7 19Z" fill="#607D8B"/>
         </svg>
       ),
       title: "Maintenance & Support",
-      description: "Maintenance continue, corrections de bugs et évolutions de vos applications web.",
-      features: ["Bug fixes", "Mises à jour", "Monitoring", "Support technique"],
-      price: "À partir de 500€/mois"
+      description: "Maintenance, corrections de bugs et évolutions simples de votre site web.",
+      features: ["Bug fixes", "Mises à jour", "Support technique"],
+      price: "À partir de 200€/mois"
+    },
+    {
+      id: 5,
+      icon: (
+        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
+          <circle cx="12" cy="12" r="2.2" fill="#61DAFB"/>
+          <path d="M12,8.11C9.96,8.11 8.11,9.96 8.11,12C8.11,14.04 9.96,15.89 12,15.89C14.04,15.89 15.89,14.04 15.89,12C15.89,9.96 14.04,8.11 12,8.11M12,17.33C9.24,17.33 6.67,15.24 6.67,12C6.67,8.76 9.24,6.67 12,6.67C14.76,6.67 17.33,8.76 17.33,12C17.33,15.24 14.76,17.33 12,17.33" fill="#61DAFB"/>
+          <ellipse cx="12" cy="12" rx="11" ry="4.2" fill="none" stroke="#61DAFB" strokeWidth="1"/>
+          <ellipse cx="12" cy="12" rx="11" ry="4.2" fill="none" stroke="#61DAFB" strokeWidth="1" transform="rotate(60 12 12)"/>
+          <ellipse cx="12" cy="12" rx="11" ry="4.2" fill="none" stroke="#61DAFB" strokeWidth="1" transform="rotate(120 12 12)"/>
+        </svg>
+      ),
+      title: "Développement React avancé",
+      description: "Création d'applications React complexes, gestion d'état, API, etc.",
+      features: ["State management", "Hooks personnalisés", "Performance optimisée"],
+      price: "Sur devis (niveau senior)"
+    },
+    {
+      id: 6,
+      icon: (
+        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M13,1L8,6H11V14H13V6H16M6,19A2,2 0 0,1 4,17V15H6V17H18V15H20V17A2,2 0 0,1 18,19" fill="#2196F3"/>
+        </svg>
+      ),
+      title: "API Integration avancée",
+      description: "Connexion et intégration d'APIs REST et GraphQL complexes.",
+      features: ["REST APIs", "GraphQL", "Authentication", "Data fetching"],
+      price: "Sur devis (niveau senior)"
     }
   ]
 

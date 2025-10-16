@@ -28,10 +28,10 @@ const Contact = () => {
           {/* Informations de contact */}
           <div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Travaillons <span className="bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent">ensemble</span>
+              Travaillons <span className="bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent">ensemble ?</span>
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Vous avez un projet web en tête ? En tant qu'étudiant développeur au Cepegra, je serais ravi 
+              Vous avez un projet web en tête ? En tant qu'étudiant développeur au Cepegra, je serai ravi 
               de discuter avec vous et de voir comment je peux contribuer à votre projet.
             </p>
             
@@ -46,7 +46,7 @@ const Contact = () => {
                     onClick={() => window.location.href = 'mailto:dev@monportfolio.com'}
                     className="text-gray-600 hover:text-blue-600 transition-colors duration-300"
                   >
-                    dev@monportfolio.com
+                    Vltnplt@gmail.com
                   </button>
                 </div>
               </div>
@@ -63,7 +63,7 @@ const Contact = () => {
                     onClick={() => window.location.href = 'tel:+32123456789'}
                     className="text-gray-600 hover:text-green-600 transition-colors duration-300"
                   >
-                    +32 1 23 45 67 89
+                    +32 476 08 33 78
                   </button>
                 </div>
               </div>
@@ -77,10 +77,10 @@ const Contact = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">Adresse</h4>
                   <button 
-                    onClick={() => window.open('https://maps.google.com/?q=Bruxelles+Belgique', '_blank')}
+                    onClick={() => window.open('https://www.google.com/maps/place/6120+Ham-sur-Heure-Nalinnes/@50.3253848,4.1161974,11z/data=!3m1!4b1!4m15!1m8!3m7!1s0x47c3a4ed73c76867:0xc18b3a66787302a7!2sBruxelles!3b1!8m2!3d50.8477029!4d4.3572001!16zL20vMDJybmJ2!3m5!1s0x47c23b5592c34303:0xb7df016b7cf8b81a!8m2!3d50.3219112!4d4.3873737!16zL20vMDE3cWI5?entry=ttu&g_ep=EgoyMDI1MTAxMy4wIKXMDSoASAFQAw%3D%3D', '_blank')}
                     className="text-gray-600 hover:text-purple-600 transition-colors duration-300 text-left"
                   >
-                    Bruxelles<br />
+                    6120 Ham-sur-heure<br />
                     Belgique
                   </button>
                 </div>
