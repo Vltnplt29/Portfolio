@@ -90,7 +90,7 @@ const About = () => {
             
             <div className="space-y-6 text-gray-600 leading-relaxed">
               <p className="text-lg">
-                Passionné par le développement web depuis plus de 4 ans, je me spécialise dans la création 
+                Passionné par le développement web depuis plus de 2 ans, je me spécialise dans la création 
                 d'interfaces utilisateur modernes et performantes avec React et les technologies front-end.
               </p>
               
@@ -108,9 +108,11 @@ const About = () => {
             </div>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <button className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg transition-all duration-300">
-                Télécharger CV
-              </button>
+                <a href="/images/CV.png" download>
+                  <button className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg transition-all duration-300">
+                    Télécharger CV
+                  </button>
+                </a>
               <button 
                 onClick={() => window.open('https://www.linkedin.com/in/valentin-philippart/', '_blank')}
                 className="border-2 border-gray-300 text-gray-600 px-6 py-3 rounded-lg font-medium hover:border-gray-400 transition-all duration-300"
