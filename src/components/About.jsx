@@ -128,13 +128,12 @@ const About = () => {
             <div className="w-full max-w-md mx-auto">
               <div className="aspect-square bg-gradient-to-br from-cyan-100 to-blue-100 rounded-2xl flex items-center justify-center border-4 border-white shadow-xl">
                 <div className="text-center">
-                  <div className="text-cyan-600 mb-4">
-                    <svg className="w-24 h-24 mx-auto" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M14,6V4H10V6H14M4,8V6H6V8H4M18,8V6H20V8H18M4,10V8H6V10H4M18,10V8H20V10H18M4,12V10H6V12H4M18,12V10H20V12H18M4,14V12H6V14H4M18,14V12H20V14H18M4,16V14H6V16H4M18,16V14H20V16H18M4,18V16H6V18H4M18,18V16H20V18H18M8,18V6H16V18H8Z"/>
-                      <path d="M10,7H14V8H10V7M10,8H14V9H10V8M10,9H14V10H10V9M10,10H14V11H10V10M10,11H14V12H10V11M10,12H14V13H10V12M10,13H14V14H10V13M10,14H14V15H10V14M10,15H14V16H10V15M10,16H14V17H10V16Z"/>
-                    </svg>
-                  </div>
-                  <p className="text-gray-600 font-medium">Photo de profil</p>
+                  <img 
+                    src="/images/photo-profil.png" 
+                    alt="Photo de profil" 
+                    className="w-24 h-24 mx-auto rounded-full object-cover border-2 border-cyan-400 shadow-md" 
+                  />
+                  <p className="text-gray-600 font-medium mt-4">Photo de profil</p>
                 </div>
               </div>
             </div>
