@@ -182,18 +182,6 @@ const Footer = () => {
               >
                 Mentions légales
               </button>
-              <button 
-                onClick={() => handleLegalLink('Politique de confidentialité')}
-                className="text-gray-400 hover:text-blue-400 transition-colors duration-300"
-              >
-                Politique de confidentialité
-              </button>
-              <button 
-                onClick={() => handleLegalLink('CGU')}
-                className="text-gray-400 hover:text-blue-400 transition-colors duration-300"
-              >
-                CGU
-              </button>
             </div>
           </div>
         </div>

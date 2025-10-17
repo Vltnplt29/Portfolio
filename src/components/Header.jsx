@@ -107,12 +107,6 @@ const Header = () => {
               Projets
             </button>
             <button 
-              onClick={() => handleNavClick('#services')}
-              className="block w-full text-left px-4 py-3 text-lg font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors duration-300"
-            >
-            // ...lien vers Services supprimé...
-            </button>
-            <button 
               onClick={() => handleNavClick('#contact')}
               className="block w-full text-left px-4 py-3 text-lg font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors duration-300"
             >

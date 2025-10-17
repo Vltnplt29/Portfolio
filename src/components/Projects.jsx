@@ -8,13 +8,13 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "MVP Nuxt & Laravel (12 jours)",
+      title: "CMS d'une appplication mobile d'urbex",
       description: "Développé en 12 jours avec Nuxt et Laravel, déployé sur Netlify. MVP réalisé après des soucis avec Strapi. Ce projet n'évoluera plus.",
       image: (
         <img
-          src="public/imgaes/urbex-chronicles.png"
+          src="/images/urbex-chronicles.png"
           alt="Urbex Chronicles"
-          className="w-32 h-12 object-contain rounded shadow-lg"
+          className="w-full h-full object-cover rounded shadow-lg"
         />
       ),
       category: "web",
@@ -71,9 +71,6 @@ const Projects = () => {
                   <div className="flex items-center justify-between mb-3">
                     <span className="px-3 py-1 bg-cyan-100 text-cyan-700 text-sm font-medium rounded-full">
                       {project.category}
-                    </span>
-                    <span className="px-2 py-1 bg-yellow-100 text-yellow-700 text-xs font-medium rounded-full">
-                      ⭐ Vedette
                     </span>
                   </div>
                   

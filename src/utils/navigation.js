@@ -40,11 +40,6 @@ export const handleNewsletterSubscribe = (email) => {
 };
 
 // Fonction pour gérer les liens de services
-export const handleServiceAction = (serviceType) => {
-  console.log(`Action pour le service: ${serviceType}`);
-  // Ici vous pourriez rediriger vers une page spécifique du service
-  alert(`Plus d'informations sur ${serviceType} bientôt disponibles !`);
-};
 
 // Fonction pour gérer les réseaux sociaux
 export const handleSocialLink = (platform) => {
