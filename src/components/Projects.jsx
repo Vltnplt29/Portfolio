@@ -8,94 +8,20 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Dashboard Analytics",
-      description: "Interface d'administration moderne avec tableaux de bord interactifs",
+      title: "MVP Nuxt & Laravel (12 jours)",
+      description: "Développé en 12 jours avec Nuxt et Laravel, déployé sur Netlify. MVP réalisé après des soucis avec Strapi. Ce projet n'évoluera plus.",
       image: (
-        <svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M19,3H5C3.9,3 3,3.9 3,5V19C3,20.1 3.9,21 5,21H19C20.1,21 21,20.1 21,19V5C21,3.9 20.1,3 19,3M19,19H5V5H19V19Z" fill="#4F46E5"/>
-          <path d="M7,12H9V17H7V12M11,10H13V17H11V10M15,8H17V17H15V8Z" fill="#818CF8"/>
-        </svg>
+        <img
+          src="public/imgaes/urbex-chronicles.png"
+          alt="Urbex Chronicles"
+          className="w-32 h-12 object-contain rounded shadow-lg"
+        />
       ),
       category: "web",
-      technologies: ["React", "D3.js", "Node.js", "PostgreSQL"],
-      demoUrl: "#",
+      technologies: ["Nuxt", "Laravel"],
+      demoUrl: "https://tubular-stroopwafel-1c150b.netlify.app/",
       githubUrl: "#",
       featured: true
-    },
-    {
-      id: 2,
-      title: "E-commerce Platform",
-      description: "Plateforme de vente en ligne complète avec panier et paiement",
-      image: (
-        <svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M7 18C5.9 18 5 18.9 5 20S5.9 22 7 22 9 21.1 9 20 8.1 18 7 18M1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5H5.21L4.27 3H1M17 18C15.9 18 15 18.9 15 20S15.9 22 17 22 19 21.1 19 20 18.1 18 17 18Z" fill="#059669"/>
-        </svg>
-      ),
-      category: "web",
-      technologies: ["Vue.js", "Stripe", "Laravel", "MySQL"],
-      demoUrl: "#",
-      githubUrl: "#",
-      featured: true
-    },
-    {
-      id: 3,
-      title: "Landing Page SaaS",
-      description: "Page d'atterrissage moderne pour une application SaaS",
-      image: (
-        <svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.22,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.22,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.68 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" fill="#DC2626"/>
-        </svg>
-      ),
-      category: "landing",
-      technologies: ["HTML5", "CSS3", "JavaScript", "GSAP"],
-      demoUrl: "#",
-      githubUrl: "#",
-      featured: false
-    },
-    {
-      id: 4,
-      title: "Portfolio Créatif",
-      description: "Portfolio interactif avec animations et transitions fluides",
-      image: (
-        <svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" fill="#9333EA"/>
-        </svg>
-      ),
-      category: "portfolio",
-      technologies: ["React", "Framer Motion", "Three.js", "Tailwind"],
-      demoUrl: "#",
-      githubUrl: "#",
-      featured: true
-    },
-    {
-      id: 5,
-      title: "API RESTful",
-      description: "API complète avec authentification et documentation",
-      image: (
-        <svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M13,1L8,6H11V14H13V6H16M6,19A2,2 0 0,1 4,17V15H6V17H18V15H20V17A2,2 0 0,1 18,19" fill="#2563EB"/>
-        </svg>
-      ),
-      category: "backend",
-      technologies: ["Node.js", "Express", "JWT", "MongoDB", "Swagger"],
-      demoUrl: "#",
-      githubUrl: "#",
-      featured: false
-    },
-    {
-      id: 6,
-      title: "App Mobile React Native",
-      description: "Application mobile cross-platform avec React Native",
-      image: (
-        <svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21C5,22.11 5.89,23 7,23H17C18.11,23 19,22.11 19,21V3C19,1.89 18.11,1 17,1Z" fill="#16A34A"/>
-        </svg>
-      ),
-      category: "mobile",
-      technologies: ["React Native", "Expo", "Firebase", "Redux"],
-      demoUrl: "#",
-      githubUrl: "#",
-      featured: false
     }
   ]
 

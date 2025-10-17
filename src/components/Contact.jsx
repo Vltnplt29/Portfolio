@@ -43,7 +43,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">Email</h4>
                   <button 
-                    onClick={() => window.location.href = 'mailto:dev@monportfolio.com'}
+                    onClick={() => window.location.href = 'mailto:vltnplt@gmail.com'}
                     className="text-gray-600 hover:text-blue-600 transition-colors duration-300"
                   >
                     Vltnplt@gmail.com

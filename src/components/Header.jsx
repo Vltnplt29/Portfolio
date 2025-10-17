@@ -64,14 +64,6 @@ const Header = () => {
               </li>
               <li>
                 <button 
-                  onClick={() => handleNavClick('#services')}
-                  className="text-gray-700 hover:text-blue-600 px-4 py-3 text-lg font-medium transition-colors duration-300"
-                >
-                  Services
-                </button>
-              </li>
-              <li>
-                <button 
                   onClick={() => handleNavClick('#contact')}
                   className="text-gray-700 hover:text-blue-600 px-4 py-3 text-lg font-medium transition-colors duration-300"
                 >
@@ -118,7 +110,7 @@ const Header = () => {
               onClick={() => handleNavClick('#services')}
               className="block w-full text-left px-4 py-3 text-lg font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors duration-300"
             >
-              Services
+            // ...lien vers Services supprimé...
             </button>
             <button 
               onClick={() => handleNavClick('#contact')}

@@ -92,14 +92,6 @@ const Footer = () => {
               </li>
               <li>
                 <button 
-                  onClick={() => scrollToSection('#services')}
-                  className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-left"
-                >
-                  Services
-                </button>
-              </li>
-              <li>
-                <button 
                   onClick={() => scrollToSection('#contact')}
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-left"
                 >
@@ -109,44 +101,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-semibold text-white">Services</h4>
-            <ul className="space-y-2">
-              <li>
-                <button 
-                  onClick={() => scrollToSection('#services')}
-                  className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-left"
-                >
-                  Développement Web
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection('#services')}
-                  className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-left"
-                >
-                  Design UI/UX
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection('#services')}
-                  className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-left"
-                >
-                  Consultation
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection('#services')}
-                  className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-left"
-                >
-                  Maintenance
-                </button>
-              </li>
-            </ul>
-          </div>
 
           {/* Contact */}
           <div className="space-y-4">
@@ -155,7 +109,7 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <span>📧</span>
                 <button 
-                  onClick={() => window.location.href = 'mailto:Vltnplt@gmail.com'}
+                  onClick={() => window.location.href = 'mailto:vltnplt@gmail.com'}
                   className="hover:text-blue-400 transition-colors duration-300"
                 >
                   vltnplt@gmail.com
