@@ -22,6 +22,23 @@ const Projects = () => {
       demoUrl: "https://tubular-stroopwafel-1c150b.netlify.app/",
       githubUrl: "#",
       featured: true
+    },
+    {
+      id: 2,
+      title: "Finwise - Gestion de finances personnelles",
+      description: "Application web moderne pour gérer ses finances personnelles, visualiser ses dépenses et revenus, et obtenir des analyses claires. Développée avec React et Tailwind, déployée sur Netlify.",
+      image: (
+        <img
+          src="/images/finwise-2026.png"
+          alt="Finwise dashboard 2026"
+          className="w-full h-full object-cover rounded shadow-lg"
+        />
+      ),
+      category: "web",
+      technologies: ["React", "Tailwind", "Vite"],
+      demoUrl: "https://finwise26.netlify.app/",
+      githubUrl: "https://github.com/Vltnplt29/Finwise",
+      featured: true
     }
   ]
 
