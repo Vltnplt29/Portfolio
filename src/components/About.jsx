@@ -58,22 +58,34 @@ const About = () => {
 
   const experiences = [
     {
-      period: "2025 - Présent",
-      role: "Formation développeur Front-End",
+      period: "Déc. 2025 - Présent",
+      role: "Développeur Front-End (Recherche active)",
+      company: "Disponible immédiatement",
+      description: "Je recherche un poste de développeur front-end pour mettre à profit mes compétences en React, Tailwind et développement d'interfaces modernes."
+    },
+    {
+      period: "2025",
+      role: "Stage Développeur Front-End (40 jours)",
+      company: "Mon état des lieux",
+      description: "Réalisation d'un CRM sur-mesure pour des experts immobiliers et leur entreprise : analyse des besoins, développement complet de l'interface, gestion des utilisateurs et automatisation de tâches métier."
+    },
+    {
+      period: "2025",
+      role: "Formation Développeur Front-End",
       company: "Cepegra",
-      description: "Développement d'applications complexes et encadrement d'équipe"
+      description: "Développement d'applications web modernes, gestion de projet, travail en équipe et bonnes pratiques professionnelles."
     },
     {
       period: "2023 - 2024",
-      role: "Bachelier développeur appplication comptable",
+      role: "Bachelier Développeur Application Comptable",
       company: "Hehlha, Montignies-sur-Sambre",
-      description: "Bachelier en création d'appplication comptables sur 3ans"
+      description: "Bachelier en création d'applications comptables sur 3 ans."
     },
     {
       period: "2021 - 2023",
       role: "Ingénieur de gestion",
       company: "Warocqué, Mons",
-      description: "Ingénieur de gestion"
+      description: "Formation en gestion et management."
     }
   ]
 
@@ -90,20 +102,16 @@ const About = () => {
             
             <div className="space-y-6 text-gray-600 leading-relaxed">
               <p className="text-lg">
-                Passionné par le développement web depuis plus de 2 ans, je me spécialise dans la création 
-                d'interfaces utilisateur modernes et performantes avec React et les technologies front-end.
+                Développeur Front-End passionné, diplômé en décembre 2025, je conçois des interfaces web modernes et performantes avec VueJs, Tailwind et les technologies JavaScript récentes.
               </p>
-              
               <p>
-                Mon approche combine créativité et technicité pour transformer des idées complexes en 
-                expériences web intuitives. J'aime particulièrement travailler sur l'optimisation des 
-                performances et l'accessibilité des applications.
+                Durant ma formation, j'ai réalisé un stage de 40 jours chez <span className="font-semibold">Mon état des lieux</span> où j'ai développé un CRM sur-mesure pour des experts immobiliers : recueil des besoins, développement complet de l'interface, gestion des utilisateurs et automatisation de tâches métier.
               </p>
-              
               <p>
-                Quand je ne code pas, vous me trouverez probablement en train de découvrir les dernières 
-                tendances tech, de contribuer à des projets open source, ou de partager mes connaissances 
-                avec la communauté développeur.
+                Je suis actuellement en recherche active d'un poste de développeur front-end pour mettre à profit ma créativité, mon sens du détail et mon envie de progresser au sein d'une équipe dynamique.
+              </p>
+              <p>
+                Curieux et impliqué, je veille à l'accessibilité, à la performance et à la qualité du code. N'hésitez pas à me contacter pour collaborer ou en savoir plus sur mon parcours !
               </p>
             </div>
 

@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       <Header />
       <main className="flex-1">
         <Hero />
