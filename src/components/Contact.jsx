@@ -92,16 +92,8 @@ const Contact = () => {
               <h4 className="text-lg font-semibold text-gray-900 mb-4">Disponibilités</h4>
               <div className="space-y-2 text-sm text-gray-600">
                 <div className="flex justify-between">
-                  <span>Lundi - Vendredi</span>
-                  <span>Après 17h00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Week-end</span>
-                  <span>Flexible</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Formation Cepegra</span>
-                  <span>Mars - Décembre 2025</span>
+                  <span>Disponible</span>
+                  <span>À tout moment</span>
                 </div>
               </div>
             </div>
