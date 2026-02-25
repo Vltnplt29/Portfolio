@@ -116,7 +116,7 @@ const About = () => {
             </div>
 
             <div className="mt-8 flex flex-wrap gap-4">
-                <a href="/images/CV.png" download>
+                <a href="/images/cv-dev-2026.pdf" download>
                   <button className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg transition-all duration-300">
                     Télécharger CV
                   </button>
